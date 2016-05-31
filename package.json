@@ -1,0 +1,31 @@
+{
+  "name": "stuwe-thueringen-speiseplan-crawler",
+  "version": "1.0.0",
+  "description": "A crawler for StuWe Thüringens Speisepläne",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "iconv-lite": "^0.4.13",
+    "moment": "^2.13.0",
+    "nano": "^6.2.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mplabs/stuwe-thueringen-speiseplan-crawler.git"
+  },
+  "keywords": [
+    "crawler\u001b[H"
+  ],
+  "author": "Felix Dürrwald <mplabs@mplabs.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mplabs/stuwe-thueringen-speiseplan-crawler/issues"
+  },
+  "homepage": "https://github.com/mplabs/stuwe-thueringen-speiseplan-crawler#readme"
+}
