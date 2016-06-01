@@ -105,7 +105,7 @@ retreive(options, postData, function(body) {
     });
     
     days.forEach(function(day) {
-        var timestamp = day.date.format('x');
+        var timestamp = day.date.format('YYYY-MM-DD');
         delete day.date;
         db.insert(day, timestamp, function(err, day) {
             if (err) console.error("Insert failed");
